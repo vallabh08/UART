@@ -1,8 +1,8 @@
-# UART Controller with 16x Oversampling 🚀
+# UART Controller with 16x Oversampling 
 
 A high-reliability UART (Universal Asynchronous Receiver-Transmitter) implementation in Verilog. This project features a modular architecture designed for FPGA deployment, utilizing an oversampling receiver to ensure robust data recovery and noise immunity.
 
-## 📌 Architecture Overview
+##  Architecture Overview
 The controller is divided into four distinct modules to ensure high maintainability and testability:
 
 * **`baud_generator.v`**: A parameterized clock divider that generates the precise timing pulses for transmission and reception.
