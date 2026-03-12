@@ -19,7 +19,7 @@ The controller is divided into four distinct modules to ensure high maintainabil
 | **Data Format** | 8-N-1 (8 Data, No parity, 1 Stop) |
 | **HDL** | Verilog-2001 |
 
-## 🧪 Verification & Simulation
+##  Verification & Simulation
 The design has been verified via **Serial Loopback Testing** in **IcarusVerilog*. In this test, the `tx_serial` output is directly tied to the `rx_serial` input within the testbench.
 
 **Simulation Results:**
