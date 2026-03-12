@@ -27,3 +27,9 @@ The design has been verified via **Serial Loopback Testing** in **IcarusVerilog*
 2.  The Receiver successfully detected the start bit, waited 8 ticks to hit the center, and sampled the subsequent bits correctly.
 3.  `rx_done` flag asserted upon successful reception of the Stop bit, updating the `rx_data` output.
 4.  **Result:** Data Match Confirmed.
+
+<img width="1649" height="495" alt="Screenshot 2026-03-12 234944" src="https://github.com/user-attachments/assets/7be4bbfc-4323-4062-ae12-b9ba8dbc1dd1" />
+
+<img width="1652" height="490" alt="Screenshot 2026-03-12 235010" src="https://github.com/user-attachments/assets/edbe787c-7838-4a27-b75d-c25d2017b3ab" />
+
+
