@@ -5,7 +5,6 @@ module baud_generator (
 );
 
 parameter MAX_COUNT = 5208;
-
 reg [15:0] counter;
 
 always @(posedge clk) begin
