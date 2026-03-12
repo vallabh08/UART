@@ -10,7 +10,7 @@ The controller is divided into four distinct modules to ensure high maintainabil
 * **`uart_rx.v`**: A sophisticated receiver FSM that uses **16x oversampling**. It identifies the start bit and samples the data at the 8th tick (the precise center of the bit) to maximize reliability.
 * **`uart_top.v`**: The top-level structural wrapper that interconnects the sub-modules and manages the dual-clock domain (1x baud tick for TX, 16x for RX).
 
-## 🛠️ Technical Specifications
+##  Technical Specifications
 | Parameter | Value |
 |-----------|-------|
 | **Clock Frequency** | 50 MHz (Default) |
